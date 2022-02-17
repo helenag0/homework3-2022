@@ -146,8 +146,11 @@ img {
   overflow: hidden;
 }
 
-.text {
-  align-items: center;
+.about p,
+.clients p,
+.method p,
+.contact p {
+  align-self: center;
   max-height: 25vh;
   overflow: scroll;
 }
